@@ -1,9 +1,11 @@
 package com.banco.restservice.model;
 
+import java.util.Date;
+
 public class Input {
 
     private String name;
-    private String birth;
+    private Date birth;
     private String cpf;
     private Float balance;
 
@@ -15,11 +17,11 @@ public class Input {
         this.name = name;
     }
 
-    public String getBirth() {
+    public Date getBirth() {
         return birth;
     }
 
-    public void setBirth(String birth) {
+    public void setBirth(Date birth) {
         this.birth = birth;
     }
 
